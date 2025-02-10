@@ -11,7 +11,7 @@ public class App {
 
     public static void main(String[] args) {
         
-        Person objectPerson = new Person();
+        Person objectPerson = new Person(float weight, float height);
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.println("Enter the weight of the person: ");
             objectPerson.setWeight(scanner.nextFloat());
