@@ -15,6 +15,7 @@ public class LoginInterface extends javax.swing.JFrame {
      */
     public LoginInterface() {
         initComponents();
+        
     }
 
     /**
